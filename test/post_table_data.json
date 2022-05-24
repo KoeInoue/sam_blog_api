@@ -1,0 +1,43 @@
+{
+  "Post": [
+      {
+          "PutRequest": {
+              "Item": {
+                  "Id": { "N": "1" },
+                  "Title": { "S": "Foo" },
+                  "Desc": { "S": "Foo" },
+                  "Content": { "S": "Foo" },
+                  "Tag": { "S": "php" },
+                  "Locale": { "S": "en"},
+                  "PostedAt": { "S": "2022-05-21" }
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "Id": { "N": "2" },
+                "Title": { "S": "Foo" },
+                "Desc": { "S": "Foo" },
+                "Content": { "S": "Foo" },
+                "Tag": { "S": "php" },
+                "Locale": { "S": "ja"},
+                "PostedAt": { "S": "2022-05-21" }
+              }
+          }
+      },
+      {
+          "PutRequest": {
+              "Item": {
+                "Id": { "N": "3" },
+                "Title": { "S": "Foo" },
+                "Desc": { "S": "Foo" },
+                "Content": { "S": "Foo" },
+                "Tag": { "S": "php" },
+                "Locale": { "S": "ja"},
+                "PostedAt": { "S": "2022-05-21" }
+              }
+          }
+      }
+  ]
+}
